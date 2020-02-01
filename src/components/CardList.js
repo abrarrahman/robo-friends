@@ -3,6 +3,10 @@ import Card from './Card';
 
 
 const CardList = ({robots}) => {
+	if(false){
+		const error = new Error("Intentional error");
+		throw error;
+	}
 	return (
 		<div>
 			{
